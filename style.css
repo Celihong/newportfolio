@@ -1,0 +1,145 @@
+body{
+margin: o;
+padding: 0;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.mian{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh ;
+}
+.pic{
+    width: 25%;
+    height: 100vh;
+    background-color: green;
+    float: left;
+}
+.pic img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.item{
+    width: 75%;
+    height: 100vh;
+    float: right;
+    background-color: rgba(101, 86, 95, 1) ;
+    position: relative;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu a{
+    text-decoration: none;
+}
+.home{
+    text-decoration: underline;
+    color: greenyellow; 
+}
+.home :hover{
+    text-decoration:underline;color: yellowgreen;
+}
+.about{
+    color: yellowgreen;
+}
+.about :hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+.exper :hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+.contact :hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+.name-left{
+    width: 120px;
+    height: 50px;
+    background-color: rgba(152, 166, 17, 1);
+    position: absolute;
+    right: 0;
+}
+.name-left h4{
+    text-align: center;
+    padding: -5%;
+}
+.info{
+    width: 400px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 20%;
+}
+.info h2{
+    color: yellowgreen;
+    font-size: 50px;
+}
+.info h3{
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgba(152, 166, 17, 0.5);
+    position: absolute;
+    top: 15px;
+    left: 7px;
+}
+.hireme{
+    width: 120px;
+    height: 50px;
+    background-color: rgba(152, 166, 17, 1);
+    border-radius: 20px;
+}
+.hireme p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.hireme a{
+    text-decoration: none;
+}
+.hireme :hover{ 
+    background-color: goldenrod;
+    border-radius: 20px;
+    height: 43%;
+} 
+.icon{
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    gap: 50px;
+}
+.icon a{
+    font-size: 50px;
+}
+
+.icon a i:hover {
+    color: #fff;
+    transition: 0.3s;
+}
